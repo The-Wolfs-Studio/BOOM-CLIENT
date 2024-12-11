@@ -9,7 +9,7 @@ import net.minecraft.client.Boom.modules.Module;
 public class Fullbright extends Module{
 
 	public Fullbright() {
-	    super("Fullbright", KeyboardConstants.KEY_NONE, Category.RENDER);
+	    super("Fullbright", KeyboardConstants.KEY_F, Category.RENDER);
 	}
 	
 	public void onEnable() {
